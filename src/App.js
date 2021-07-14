@@ -12,6 +12,7 @@ import { BrowserRouter as Router,  Route, Switch} from 'react-router-dom';
 import UseEffectApi from './Component/useEffect/useEffectApi';
 import Trial from './Component/Pages/Trial';
 import Searchbar from './Component/inc/Searchbar';
+import Registers1 from './Component/Pages/Registers1';
 
 
 
@@ -35,8 +36,8 @@ function App() {
     <Route path="/aboutus">
     <Aboutus/> 
     </Route>
-    <Route path="/register">
-    <Register/>
+    <Route path="/registers1">
+    <Registers1/>
     </Route>
     <Route path="/bestseller">
     <BestSeller/>

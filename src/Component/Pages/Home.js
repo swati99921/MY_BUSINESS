@@ -1,5 +1,6 @@
-import React from 'react'
-import Slider from '../inc/Slider';
+import React from 'react';
+//import Slider from '../inc/Slider';
+import Slider from '../inc/Slider.js';
 import Vmc from './inc/Vmc';
 import { Link } from 'react-router-dom';
 import Books from '../images/banner4.jpg';
@@ -11,7 +12,7 @@ import Books5 from '../images/banner1.jpg';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
     return (
-        <div>
+        <div> 
             <Slider />
             <section className="section">
                 <div className="container">
